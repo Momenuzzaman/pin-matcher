@@ -5,8 +5,14 @@ function getPin(){
         return pin;
     }
     else{
-        console.log("pin")
         return getPin();
     }
 
 }
+// display generate pin
+function generatePin(){
+    const pinInput = document.getElementById("pin");
+pinInput.value =  getPin();
+}
+
+

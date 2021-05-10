@@ -26,8 +26,6 @@ buttonContainer.addEventListener("click",function(event){
             const typedInput = document.getElementById("typed-pin");
             typedInput.value = "";
         }
-       
-
     }
     else{
         const typedInput = document.getElementById("typed-pin");
